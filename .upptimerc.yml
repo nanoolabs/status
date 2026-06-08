@@ -1,6 +1,7 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: nanoolabs # Your GitHub organization or username, where this repository lives
+repo: status # The name of this repository
+cname: status.nanoolabs.dev
 
 sites:
   - name: Nanoo Labs
