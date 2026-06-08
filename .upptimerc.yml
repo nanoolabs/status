@@ -31,7 +31,7 @@ status-website:
     - title: Nanoo Labs
       href: https://nanoolabs.dev
   theme: dark
-  themeUrl: /nanoo-health.css
+  themeUrl: /assets/nanoo-v1.css
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
