@@ -17,12 +17,15 @@ sites:
     url: https://cdn.nanoolabs.dev
 
 status-website:
-  theme: light
+  theme: dark
   cname: status.nanoolabs.dev
-  logoUrl: https://raw.githubusercontent.com/nanoolabs/changelog/main/brands/v.2.0.0/nanoo-light.svg
-  name: "Nanoo"
+  logoUrl: https://cdn.nanoolabs.dev/brands/latest/nanoo-dark.svg
+  name: "Nanoo Labs"
   introTitle: "**Nanoo Labs Status**"
-  introMessage: "Monitoring for our high-performance ecosystems and experimental platforms. Built to be fast, simple, and scalable."
+  introMessage: "Real-time monitoring for our high-performance ecosystems and experimental platforms."
+  themeUrl: https://raw.githubusercontent.com/nanoolabs/status/HEAD/assets/nanoo-upptime.css
+  customHeadHtml: |
+    <link rel="stylesheet" href="https://unpkg.com/@nlbs/css">
   navbar:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
