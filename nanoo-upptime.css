@@ -1,0 +1,117 @@
+:root {
+  --body-background-color: var(--nl-canvas);
+  --body-text-color: var(--nl-fg);
+  --card-background-color: var(--nl-color-canvas-soft);
+  --card-border-color: var(--nl-color-border);
+  --nav-background-color: var(--nl-color-canvas-soft);
+  --nav-border-bottom-color: var(--nl-color-border);
+  --nav-current-border-bottom-color: var(--nl-primary);
+  --up-border-left-color: var(--nl-primary);
+  --tag-color: var(--nl-color-canvas);
+  --tag-up-background-color: var(--nl-primary);
+  --tag-degraded-background-color: #f7b731;
+  --tag-down-background-color: #eb3b5a;
+  --change-background-color: #f7b731;
+  --submit-button-border-color: var(--nl-primary);
+  --submit-button-background-color: var(--nl-primary);
+  --submit-button-color: var(--nl-color-on-primary);
+  --error-button-border-color: #1a46ad;
+  --error-button-background-color: #3867d6;
+  --error-button-color: #ffffff;
+  --graph-opacity: 1;
+  --graph-filter: none;
+}
+
+body {
+  font-family: var(--nl-font-sans, "Geist Sans", system-ui, sans-serif);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--nl-color-ink);
+  text-underline-offset: 3px;
+  text-decoration-color: var(--nl-color-border);
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+
+a:hover {
+  color: var(--nl-primary);
+  text-decoration-color: var(--nl-primary);
+}
+
+.container {
+  max-width: 64rem;
+}
+
+.avatar img {
+  border-radius: var(--nl-radius-sm);
+}
+
+.card {
+  border: var(--nl-hairline);
+  border-radius: var(--nl-radius-md);
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: color-mix(in srgb, var(--nl-primary) 40%, transparent);
+}
+
+.card h2 {
+  font-weight: 600;
+  color: var(--nl-color-ink-strong);
+}
+
+.tag-up,
+.tag-down,
+.tag-degraded,
+.tag-none {
+  font-family: var(--nl-font-mono, "Geist Mono", monospace);
+  font-size: 0.6875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.125rem 0.5rem;
+  border-radius: var(--nl-radius-pill);
+  font-weight: 600;
+}
+
+.tag-up {
+  background-color: transparent;
+  border: 1px solid var(--nl-primary);
+  color: var(--nl-primary);
+}
+
+.tag-down {
+  background-color: transparent;
+  border: 1px solid #eb3b5a;
+  color: #eb3b5a;
+}
+
+.tag-degraded {
+  background-color: transparent;
+  border: 1px solid #f7b731;
+  color: #f7b731;
+}
+
+.button {
+  border-radius: var(--nl-radius-sm);
+  font-weight: 500;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.navbar {
+  backdrop-filter: blur(8px);
+  background-color: color-mix(in srgb, var(--nl-color-canvas-soft) 85%, transparent);
+}
+
+.navbar ul li a {
+  font-family: var(--nl-font-mono, "Geist Mono", monospace);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.footer {
+  opacity: 0.5;
+  font-size: 0.8125rem;
+}
