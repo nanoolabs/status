@@ -23,9 +23,38 @@ status-website:
   name: "Nanoo Labs"
   introTitle: "**Nanoo Labs Status**"
   introMessage: "Real-time monitoring for our high-performance ecosystems and experimental platforms."
-  themeUrl: https://raw.githubusercontent.com/nanoolabs/status/HEAD/assets/nanoo-upptime.css
   customHeadHtml: |
-    <link rel="stylesheet" href="https://unpkg.com/@nlbs/css">
+    <style>
+      :root {
+        --body-background-color: #050505;
+        --body-text-color: #f2f2f2;
+        --card-background-color: #0a0a0a;
+        --card-border-color: #1f2937;
+        --nav-background-color: #0a0a0a;
+        --nav-border-bottom-color: #1f2937;
+        --nav-current-border-bottom-color: #00ffff;
+        --up-border-left-color: #00ffff;
+        --tag-color: #050505;
+        --tag-up-background-color: #00ffff;
+        --submit-button-border-color: #00ffff;
+        --submit-button-background-color: #00ffff;
+        --submit-button-color: #000000;
+        --graph-opacity: 1;
+        --graph-filter: none;
+      }
+      body {
+        font-family: system-ui, sans-serif !important;
+      }
+      .container {
+        max-width: 64rem !important;
+      }
+      article {
+        border-radius: 0.5rem !important;
+      }
+      .tag {
+        border-radius: 9999px !important;
+      }
+    </style>
   navbar:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
