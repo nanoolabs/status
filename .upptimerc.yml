@@ -23,38 +23,36 @@ status-website:
   name: "Nanoo Labs"
   introTitle: "**Nanoo Labs Status**"
   introMessage: "Real-time monitoring for our high-performance ecosystems and experimental platforms."
-  customHeadHtml: |
-    <style>
-      :root {
-        --body-background-color: #050505 !important;
-        --body-text-color: #f2f2f2 !important;
-        --card-background-color: #0a0a0a !important;
-        --card-border-color: #1f2937 !important;
-        --nav-background-color: #0a0a0a !important;
-        --nav-border-bottom-color: #1f2937 !important;
-        --nav-current-border-bottom-color: #00ffff !important;
-        --up-border-left-color: #00ffff !important;
-        --tag-color: #050505 !important;
-        --tag-up-background-color: #00ffff !important;
-        --submit-button-border-color: #00ffff !important;
-        --submit-button-background-color: #00ffff !important;
-        --submit-button-color: #000000 !important;
-        --graph-opacity: 1 !important;
-        --graph-filter: none !important;
-      }
-      body {
-        font-family: system-ui, sans-serif !important;
-      }
-      .container {
-        max-width: 64rem !important;
-      }
-      article {
-        border-radius: 0.5rem !important;
-      }
-      .tag {
-        border-radius: 9999px !important;
-      }
-    </style>
+  css: |
+    :root {
+      --body-background-color: #050505;
+      --body-text-color: #f2f2f2;
+      --card-background-color: #0a0a0a;
+      --card-border-color: #1f2937;
+      --nav-background-color: #0a0a0a;
+      --nav-border-bottom-color: #1f2937;
+      --nav-current-border-bottom-color: #00ffff;
+      --up-border-left-color: #00ffff;
+      --tag-color: #050505;
+      --tag-up-background-color: #00ffff;
+      --submit-button-border-color: #00ffff;
+      --submit-button-background-color: #00ffff;
+      --submit-button-color: #000000;
+      --graph-opacity: 1;
+      --graph-filter: none;
+    }
+    body {
+      font-family: system-ui, sans-serif;
+    }
+    .container {
+      max-width: 64rem;
+    }
+    article {
+      border-radius: 0.5rem;
+    }
+    .tag {
+      border-radius: 9999px;
+    }
   navbar:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
