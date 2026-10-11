@@ -4,10 +4,10 @@
     "url": "https://nanoolabs.dev",
     "icon": "https://icons.duckduckgo.com/ip3/nanoolabs.dev.ico",
     "slug": "nanoo-labs",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 205,
@@ -15,7 +15,9 @@
     "timeWeek": 262,
     "timeMonth": 244,
     "timeYear": 205,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-11": 1
+    }
   },
   {
     "name": "Nanoo Root",
@@ -58,9 +60,9 @@
     "url": "https://stack.nanoolabs.dev",
     "icon": "https://icons.duckduckgo.com/ip3/stack.nanoolabs.dev.ico",
     "slug": "nanoo-stack",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -69,16 +71,18 @@
     "timeWeek": 240,
     "timeMonth": 210,
     "timeYear": 188,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-11": 1
+    }
   },
   {
     "name": "Nanoo Docs",
     "url": "https://docs.nanoolabs.dev",
     "icon": "https://icons.duckduckgo.com/ip3/docs.nanoolabs.dev.ico",
     "slug": "nanoo-docs",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -87,7 +91,9 @@
     "timeWeek": 251,
     "timeMonth": 253,
     "timeYear": 186,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-10-11": 0
+    }
   },
   {
     "name": "Nanoo CDN",
