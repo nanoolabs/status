@@ -5,18 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/nanoolabs.dev.ico",
     "slug": "nanoo-labs",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.85%",
+    "uptimeDay": "80.84%",
+    "uptimeWeek": "97.26%",
+    "uptimeMonth": "99.37%",
+    "uptimeYear": "99.85%",
     "time": 205,
-    "timeDay": 348,
-    "timeWeek": 262,
-    "timeMonth": 244,
+    "timeDay": 0,
+    "timeWeek": 260,
+    "timeMonth": 245,
     "timeYear": 205,
     "dailyMinutesDown": {
-      "2026-10-11": 1
+      "2026-10-12": 229,
+      "2026-10-11": 47
     }
   },
   {
@@ -30,11 +31,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 555,
-    "timeDay": 666,
-    "timeWeek": 652,
-    "timeMonth": 591,
-    "timeYear": 555,
+    "time": 554,
+    "timeDay": 352,
+    "timeWeek": 628,
+    "timeMonth": 581,
+    "timeYear": 554,
     "dailyMinutesDown": {}
   },
   {
@@ -48,11 +49,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 483,
-    "timeDay": 423,
-    "timeWeek": 233,
-    "timeMonth": 246,
-    "timeYear": 483,
+    "time": 481,
+    "timeDay": 170,
+    "timeWeek": 232,
+    "timeMonth": 242,
+    "timeYear": 481,
     "dailyMinutesDown": {}
   },
   {
@@ -61,18 +62,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/stack.nanoolabs.dev.ico",
     "slug": "nanoo-stack",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.85%",
+    "uptimeDay": "80.87%",
+    "uptimeWeek": "97.27%",
+    "uptimeMonth": "99.37%",
+    "uptimeYear": "99.85%",
     "time": 188,
-    "timeDay": 352,
-    "timeWeek": 240,
-    "timeMonth": 210,
+    "timeDay": 0,
+    "timeWeek": 247,
+    "timeMonth": 209,
     "timeYear": 188,
     "dailyMinutesDown": {
-      "2026-10-11": 1
+      "2026-10-12": 229,
+      "2026-10-11": 47
     }
   },
   {
@@ -81,18 +83,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/docs.nanoolabs.dev.ico",
     "slug": "nanoo-docs",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.85%",
+    "uptimeDay": "80.89%",
+    "uptimeWeek": "97.27%",
+    "uptimeMonth": "99.37%",
+    "uptimeYear": "99.85%",
     "time": 186,
-    "timeDay": 472,
-    "timeWeek": 251,
-    "timeMonth": 253,
+    "timeDay": 0,
+    "timeWeek": 249,
+    "timeMonth": 251,
     "timeYear": 186,
     "dailyMinutesDown": {
-      "2026-10-11": 0
+      "2026-10-12": 229,
+      "2026-10-11": 46
     }
   },
   {
@@ -106,11 +109,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 167,
-    "timeDay": 270,
-    "timeWeek": 214,
-    "timeMonth": 189,
-    "timeYear": 167,
+    "time": 166,
+    "timeDay": 75,
+    "timeWeek": 194,
+    "timeMonth": 188,
+    "timeYear": 166,
     "dailyMinutesDown": {}
   }
 ]
